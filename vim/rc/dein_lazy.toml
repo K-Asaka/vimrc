@@ -1,0 +1,17 @@
+[[plugins]]
+repo = 'plasticboy/vim-markdown'
+on_ft = ['markdown']
+[[plugins]]
+repo = 'previm/previm'
+on_source = ['vim-markdown']
+
+[[plugins]]
+repo = 'Shougo/neocomplete.vim'
+on_i = 1
+
+[[plugins]]
+repo = 'Shougo/unite.vim'
+[[plugins]]
+repo = 'Shougo/neomru.vim'
+on_source = ['unite.vim']
+
